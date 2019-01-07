@@ -1,0 +1,70 @@
+#mainnav {
+    background-color:white;
+   
+
+}
+
+#sub{
+    font-weight: lighter;
+    font-size: small;
+    color: darkgrey;
+    
+}
+
+.bg{
+    background-image: url("images/yaga-53.JPG");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100vh;
+   
+}
+
+
+.container1{
+    justify-content: end;
+    
+}
+
+
+#mainjumbo {
+    background-color: transparent; 
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+ 
+    
+}
+
+.tophead{
+    letter-spacing: 6px;
+  
+}
+
+.rounded-circle{
+    justify-content: center;
+
+}
+
+
+.media-body {
+    padding-left: 40;
+    align-content: center;
+}
+ 
+
+
+
+.containerfoot{
+    background-color: lightgray;
+}
+
+
+@media(min-width:576px){
+    background-image: url("images/IMG_3464.JPG");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+}
