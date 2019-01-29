@@ -1,8 +1,30 @@
 #mainnav {
-    background-color:white;
-   
+    background-color: #222222;
+    letter-spacing: 2px;
+    position:fixed;
+    width:100%;
+    overflow: hidden;
+    z-index: 500;
+    height:60px;
+    box-shadow: 5px;
+    
 
 }
+
+#nav-link{
+    color: #F7F5F2;
+}
+
+.navbar{
+    position: fixed;
+}
+
+.navbar a:hover {
+    border-bottom: 3px solid #F7F5F2;
+    color: #C58F69;
+    
+  }
+
 
 #sub{
     font-weight: lighter;
@@ -11,19 +33,70 @@
     
 }
 
+
+#logo{
+    height:75px;
+    width: 75px;
+    padding: 10px;
+    
+}
+
+
+.jumbotron{
+    background-image: url("/Users/dianahvvang/Documents/portfolio-hw-17/portfoliohw17/images/Asset 8.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
 .bg{
-    background-image: url("images/yaga-53.JPG");
+    background-color: #222222;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    width:auto;
     height:100vh;
+    font-family: 'Poppins', sans-serif;
+
    
+}
+
+.skills{
+    background-color: #C58F69;
+    color: white;
+    text-align: center;
+    padding: 80px 250px 80px 250px;
+    font-size: 10pt;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+    display:flex;
+}
+
+.text{
+    font-family:'Poppins', sans-serif;
 }
 
 
 .container1{
     justify-content: end;
     
+}
+
+
+.btn{
+    background-color: #C58F69; 
+    border-color: #C58F69;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.btn:hover{
+    background-color: white;
+    color: #C58F69;
+    border-color: #C58F69;
+    border-width: 2px;
+
 }
 
 
@@ -37,9 +110,10 @@
     
 }
 
-.tophead{
-    letter-spacing: 2px;
-  
+
+.media{
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .rounded-circle{
@@ -49,12 +123,11 @@
 
 
 .media-body {
-    padding-left: 40;
+    padding-left: 40px;
     align-content: center;
     vertical-align: middle;
     
 }
-
 
 
 .containerfoot{
@@ -66,6 +139,33 @@
     height: 300px;
     }
 
+
+#projects-bg{
+    background-color: #F7F5F2;
+}
+
+.about{
+    background-color: #FFF4EC;
+    background-size: auto;
+    font-family: 'Poppins', sans-serif;
+    padding: 80px 250px 80px 250px;
+
+}
+
+#about-pic{
+    width: 500px;
+    height: auto;
+}
+.about-head{
+    color:#222222;
+    text-align: center;
+  
+    letter-spacing: 5px;
+}
+
+#abouttext{
+    color: #222222;
+}
 
 @media(max-width:576px){
     background-image: url("images/IMG_3464.JPG");
@@ -81,12 +181,21 @@
         flex-direction: column;
     }
 
+    .about{
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+    }
+
     #thumb {
         width:100%;
         height: 100%;
     }
 
-  
+
+    #about-pic{
+        width: 100%;
+        height: auto;
     }
 
     .tophead{
